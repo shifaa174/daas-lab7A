@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: course-catalog-daas
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python seed_db.py
+    startCommand: gunicorn --bind 0.0.0.0:$PORT --workers 2 app:app
+    healthCheckPath: /health
