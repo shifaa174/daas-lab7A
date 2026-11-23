@@ -2,7 +2,7 @@
 
 A small **Data as a Service (DaaS)** application. A SQLite database of university courses is exposed to clients through a read-only REST API, built with Flask and deployed on Render.
 
-Built for **CSE540 Cloud Computing, Lab Experiment 8: Development and Deployment of Data as a Service (DaaS)**, Ahmedabad University.
+Built for **CSE540 Cloud Computing, Lab Experiment 7: Development and Deployment of Data as a Service (DaaS)**, Ahmedabad University.
 
 **Live service:** https://daas-lab7a.onrender.com
 
